@@ -121,7 +121,7 @@ namespace Quick_EvenOddSort
                 swapping_List.Add(swapping);
                 comprassion_List.Add(comprassion);
                 numb.Clear();
-                textBox1.Text += "Расческа:" + "\r\n";
+                textBox1.Text += "Быстрая:" + "\r\n";
                 textBox1.Text += "Время:   " + spendtime.Milliseconds + " мс" + "\r\n";
                 textBox1.Text += "Кол-во перестановок: " + swapping.ToString() + ":\r\n";
                 textBox1.Text += "Кол-во сравнений: " + comprassion.ToString() + ":\r\n";
